@@ -22,23 +22,27 @@ int main() {
     
     int a,b,c;
     
-printf("Ingrese 3 numeros cualquiera\n");
-scanf ("%d %d %d",&a, &b, &c);
+printf("\n\nIngrese el numero 1:");
+scanf ("%d",&a);
+printf("\nIngrese el numero 2:");
+scanf ("%d",&b);
+printf("\nIngrese el numero 3:");
+scanf ("%d",&c);
 
 if (a<b){
  if (a<c)
  {
  if (b<c)
- printf (" El orden es %d, %d, %d. \n",a,b,c);
- else printf (" El orden es %d, %d, %d.\n",a,c,b);
+ printf ("\n\nEl orden es %d, %d, %d.\n",a,b,c);
+ else printf ("\n\nEl orden es %d, %d, %d.\n",a,c,b);
  }
  }
  else
  {
  if (b<c){
  if (a<c)
- printf (" El orden es %d, %d, %d.\n",b,a,c);
- else printf (" El orden es %d, %d, %d.\n",b,c,a);
+ printf ("\n\nbEl orden es %d, %d, %d.\n",b,a,c);
+ else printf ("\n\nEl orden es %d, %d, %d.\n",b,c,a);
  }
  }
  
